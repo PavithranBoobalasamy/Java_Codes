@@ -1,9 +1,8 @@
 
 public class Learning {
     public static void main(String[] args) {
-        long a = 1234;
-        String str = Long.toString(a);
-        System.out.println(str);
-        
+        String a = "foobarthemanbarfoobar";
+        System.out.println(a.indexOf("barfao"));
+        System.out.println(a.indexOf("foobar"));
     }
 }
