@@ -1,4 +1,6 @@
+// import java.util.ArrayList;
 import java.util.Arrays;
+// import java.util.List;
 
 public class Learning {
     public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Learning {
         for(int num : v){
             System.out.println(num);
         }
+        // List<Integer> list = new ArrayList<>();
         Arrays.fill(ar,0);
         for(int num : v){
             System.out.println(num);
