@@ -1,30 +1,22 @@
 // import java.util.ArrayList;
-import java.util.Arrays;
 // import java.util.List;
 
 public class Learning {
     public static void main(String[] args) {
-        int[] ar = {1,2,3};
-        int[] v = ar;
-        for(int num : v){
-            System.out.println(num);
-        }
-        // List<Integer> list = new ArrayList<>();
-        Arrays.fill(ar,0);
-        for(int num : v){
-            System.out.println(num);
-        }
-         // for(int i=0;i<s.length();i++){
-        //     if(s.charAt(i)=='z'){
-        //         ar[0]++;
-        //         ar[1]++;
-        //     }
-        //     else{
-        //         ar[s.charAt(i)-'a'+1]++;
-        //     }
+        // int[] ar = {1,2,3};
+        // int[] v = ar;
+        // for(int num : v){
+        //     System.out.println(num);
         // }
-        // for(int um  : ar){
-        //     System.out.println(um);
+        int k = 39;
+        int count = (int)Math.ceil(Math.log(k)/Math.log(2));
+        System.out.println(count);
+        // System.out.println(new String("a"));
+        // String a = "aab";
+        // String[] arr = a.split("");
+        // for(String s : arr){
+        //     System.out.println(s);
         // }
+
     }
 }
