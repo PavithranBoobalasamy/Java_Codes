@@ -1,4 +1,4 @@
-public class GetMax{
+public class StringPermutations{
     public static void main(String[] args) {
         String s1 = "ab";
         String s2 = "eidabooo";
@@ -11,7 +11,7 @@ public class GetMax{
         for(char ch : s1.toCharArray()){
             freq1[ch-'a']++;
         }
-        for(int i=0;i<s2.length()-n+1;i++){
+        for(int i=0;i<s2.length()-n+1;){
             int[] freq = new int[26];
             int r = i+n;
             for(int j = i;j<r;j++){

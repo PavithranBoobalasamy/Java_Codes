@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Stack{
+class StackU{
     ArrayList<Integer> stack = new ArrayList<>();
     public void push(int data){
         stack.add(data);
@@ -42,7 +42,7 @@ class Stack{
 
 public class StackUsingArrayListDemo {
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        StackU stack = new StackU();
         stack.push(20);
         stack.push(30);
         stack.push(40);
