@@ -8,9 +8,19 @@ public class Learning {
         // for(int num : v){
         //     System.out.println(num);
         // }
-        int k = 39;
-        int count = (int)Math.ceil(Math.log(k)/Math.log(2));
-        System.out.println(count);
+        int num = 12;
+        StringBuilder result =new StringBuilder(Integer.toBinaryString(num));
+        for(int i=0;i<result.length();i++){
+            if(result.charAt(i)  == '1'){
+                result.setCharAt(i,'0');
+                break;
+            }
+        }
+        System.out.println(Integer.parseInt(result.toString(),2));
+
+        // int k = 39;
+        // int count = (int)Math.ceil(Math.log(k)/Math.log(2));
+        // System.out.println(count);
         // System.out.println(new String("a"));
         // String a = "aab";
         // String[] arr = a.split("");
