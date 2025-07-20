@@ -27,6 +27,7 @@ public class Learning {
         // for(String s : arr){
         //     System.out.println(s);
         // }
-
+        String res = "LEETCODELEETLEET";
+        System.out.println(res.replace("LEET",""));
     }
 }
