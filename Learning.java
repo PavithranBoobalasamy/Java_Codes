@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-// import java.util.Stack;
-import java.util.List;
-import java.math.BigInteger;
+import java.util.*;
+import java.math.*;
 public class Learning {
     public static void main(String[] args) {
         int[] ar = {1,2,3};
@@ -9,15 +7,15 @@ public class Learning {
         for(int num : v){
             System.out.println(num);
         }
-        int num = 12;
-        StringBuilder result =new StringBuilder(Integer.toBinaryString(num));
-        for(int i=0;i<result.length();i++){
-            if(result.charAt(i)  == '1'){
-                result.setCharAt(i,'0');
-                break;
-            }
-        }
-        System.out.println(Integer.parseInt(result.toString(),2));
+        // int num = 12;
+        // StringBuilder result =new StringBuilder(Integer.toBinaryString(num));
+        // for(int i=0;i<result.length();i++){
+        //     if(result.charAt(i)  == '1'){
+        //         result.setCharAt(i,'0');
+        //         break;
+        //     }
+        // }
+        // System.out.println(Integer.parseInt(result.toString(),2));
         System.out.println(1^0);
         List<Integer> list = new ArrayList<>();
         list.add(8);
@@ -42,6 +40,16 @@ public class Learning {
         long m = 1000;
         System.out.println(Math.pow(9,m));
         System.out.println(BigInteger.valueOf(m));
-        
+
+        int[] nums = {-2,-1,-4,-10};
+        Arrays.sort(nums);
+        for(int num : nums){
+            System.out.print(num+" ");
+        }
+        HashSet<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add(20);
+        set.remove(20);
+        System.out.println(set);
     }
 }
